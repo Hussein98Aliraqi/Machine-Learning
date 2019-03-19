@@ -1,0 +1,22 @@
+import pandas as bd
+s={'id':[1,2,3,4],'score':['strong','weak','weak','strong']}
+w=bd.DataFrame(s)
+print(s)
+def coding(x):
+    if x=='strong':
+        return 1
+    if x=='weak':
+        return 0
+print("------------------------------------------")
+w['code']=w['score'].apply(coding)
+print(w)
+
+
+
+
+
+        
+        
+ 
+
+
