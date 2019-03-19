@@ -8,7 +8,7 @@ print(DF1.iloc[0,1])#print one cell
 ar=np.random.randn(25)
 print("////////////////////////////////////////////////")
 print(ar)
-DF2=pd.DataFrame((ar).reshape(5,5))#تغيير ابعاد المصفوفة 
+DF2=pd.DataFrame((ar).reshape(5,5))
 print("//////////////////////////////////////////////")
 #print(DF2)
 DF2=pd.DataFrame((ar).reshape(5,5),index=['A','B','C','D','E'],columns=['A1','A2','A3','A4','A5'])#Convert column and row headers
